@@ -214,7 +214,13 @@ $(function() {
 		if (timeLeftForQuestion == 0) {
 			$('.times_up').show();
 		}
-		$('p.final_points').html(points + ' puntos');
+		
+		if (points === 50) {
+			$('p.final_points').html('éxito, tu código es: <span style="font-weight: bold; font-size: larger;">850</span>');
+		} else {
+			$('p.final_points').html(points + ' puntos');
+		}		
+		
 		$('.question.card:visible').hide();
 		$('.finish.card').show();
 	}
