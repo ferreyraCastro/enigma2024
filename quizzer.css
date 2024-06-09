@@ -19,6 +19,9 @@ button {
 	font-size: 20px;
 	color: #fff;
 	background-color: #ffc300;
+	height: auto;
+	width: auto;
+	white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
 
 header .title {
@@ -65,6 +68,7 @@ header div.countdown, header div.points {
 	margin: 100px auto 30px auto;
 	border-radius: 6px;
 	text-align: center;
+	color: #ffff;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(255, 195, 0, 0.8);
@@ -97,14 +101,18 @@ div.start .card p, .question.card span.question {
 }
 
 .card.question .options > li label {
-	background-color: #7ED2CF;
+	background-color: #ffc300;
+	color: #ffff;
 	display: block;
 	padding: 10px;
 	border-radius: 20px;
+	font-weight: bold; /* Texto en negrita */
 }
 
 .card.question .options > li label:hover {
-	background-color: #8EE8E5;
+	background-color: #ffff;
+	color: #ffc300;
+	font-weight: bold; /* Texto en negrita */
 }
 
 .card.question .options > li input:checked + label {
