@@ -59,9 +59,9 @@ header div.countdown, header div.points {
 }
 
 .card {
-	background-color: red;
+	background-color: rgba(124, 1, 3, 0.7); /* Color de fondo con opacidad */	
 	width: 900px;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	margin: 100px auto 30px auto;
 	border-radius: 6px;
 	text-align: center;
