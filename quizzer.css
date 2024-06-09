@@ -1,7 +1,11 @@
 body {
-	background-color: #7CBB7A;
-	margin: 0;
+	background-color: #ffc300;
 	font-family: 'Open sans', sans-serif;
+	background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+	background-position: center; /* Centra la imagen */
+	background-repeat: no-repeat; /* Evita que la imagen se repita */
+	background-attachment: fixed; /* Fija la imagen de fondo */
+	margin: 0; /* Elimina el margen predeterminado del cuerpo */
 }
 
 * {
@@ -14,11 +18,11 @@ button {
 	padding: 10px 20px;
 	font-size: 20px;
 	color: #fff;
-	background-color: #ccc;
+	background-color: #ffc300;
 }
 
 header .title {
-	background-color: #767D76;
+	background-color: #7c0103;
 	color: #fff;
 	text-align: center;
 	padding: 15px;
@@ -49,7 +53,7 @@ header div.points.animate.wrong {
 header div.countdown, header div.points {
 	font-weight: bold;
 	margin: 10px;
-	color: #fff;
+	color: #ffc300;
 	padding: 0px;
 	font-size: 26px;
 }
@@ -62,6 +66,7 @@ header div.countdown, header div.points {
 	border-radius: 6px;
 	text-align: center;
 	padding: 20px;
+	
 }
 
 div.start .card {

@@ -42,6 +42,15 @@ var questions = [
 	],
 ];
 
+// Array de imágenes de fondo para cada pregunta
+var backgroundImages = [
+    'url(./img/imagen1.jpg)',
+    'url(./img/imagen2.jpg)',
+    'url(./img/imagen3.jpg)',
+    'url(./img/imagen4.jpg)',
+    'url(./img/imagen5.jpg)',
+];
+
 // Aquí utilizamos UnderscoreJS para generar un template de pregunta.
 var questionTemplate = _.template(" \
 	<div class='card question'><span class='question'><%= question %></span> \
@@ -149,6 +158,9 @@ $(function() {
 	// Mostramos la tarjeta de pregunta correspondiente al índice que la función recibe por parámetro.
 	function showQuestionCardAtIndex(index) { // staring at 1
 		var $card = $('.question.card:nth-child(' + index + ')').show();
+		
+        // Cambiar el fondo del <main> con la imagen correspondiente
+        $('body').css('background-image', backgroundImages[index - 1]);
 	}
 
 	// La función countdownTick() se ejecuta cada un segundo, y actualiza el tiempo restante para responder en la pantalla del jugador.
