@@ -228,8 +228,10 @@ $(function() {
 		}
 		
 		if (points === 50) {
-			$('p.final_points').html('éxito, tu código es: <span style="font-weight: bold; font-size: larger; color:red;">850</span>');
+			$('p.final1_points').html('<span style="font-weight: bold; font-size: larger;">Felicidades!!!!</span>');
+			$('p.final_points').html('Tu código es: <span style="font-weight: bold; font-size: larger; color:red;">850</span>');
 		} else {
+			$('p.final1_points').html('<span style="font-weight: bold; font-size: larger;">Has obtenido</span>');
 			$('p.final_points').html(points + ' puntos');
 		}		
 		
