@@ -12,10 +12,9 @@
     <header>
       <div class="title">
         <h1>Enigma</h1>
-        <h2>¿Sabes tanto como creías? Si obtienes <span>50 puntos</span>, podrás visualizar el código.</h2>
+        <h2>Responde correctamente para obtener el código.</h2>
       </div>
       <div class="countdown"><span class="time_left">12s</span></div>
-      <div class="points"><span class="points">0 points</span></div>
     </header>
     <main>
       <div class="start">
@@ -28,12 +27,14 @@
         <div class="questions"></div>
       </div>
       <div class="finish card">
-        <p class="times_up">¡Se acabó el tiempo!</p>
-        <p class="final1_points">Has obtenido</p>
-        <p class="final_points">8 puntos</p>
+        <p class="final_message">¡Felicidades! Has completado el enigma.</p>
+        <p class="final_code">Tu código es: <span style="font-weight: bold; font-size: larger; color:#ffc300;">2</span></p>
         <div class="play_again">
           <button>Volver a jugar</button>
         </div>
+      </div>
+      <div class="incorrect_message">
+        <p>¡Respuesta incorrecta! Intenta nuevamente en 5 segundos.</p>
       </div>
     </main>
     
