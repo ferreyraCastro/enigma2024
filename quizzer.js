@@ -1,20 +1,52 @@
 // inicializamos un array de arrays con la preguntas del juego.
 var questions = [
     [
-        "Nacido de una diosa marina y un rey mortal, fue sumergido en un río sagrado, quedando invulnerable salvo por un talón vulnerable.",
+        "En la 'Odisea' de los números se halla, un héroe viajero, que nunca se amedrenta. Diez años de lucha, mil suspiros mil, su epopeya, un legado que aún persiste aquí. ¿Quién es este héroe, cuyo número clave es el diez que lo guía en su viaje audaz?",
         "Perseo",
-        "Semidios",
-        "Dios",
+        "Hércules",
+        "Ulises",
         "Aquiles",
+        2
+    ],
+    [
+        "En mares tumultuosos, su nave surca, el héroe valiente, su destino busca. En la 'Odisea' eterna, su historia se enlaza, ¿Quién es este héroe que en el mar se abraza?",
+        "Ulises",
+        "Aquiles",
+        "Hércules",
+        "Perseo",
+        0
+    ],
+    [
+        "Imagina a un valiente que se enfrenta a enormes retos y busca hacer lo correcto, siempre con la cabeza en alto. Su vida está llena de aventuras emocionantes y grandes batallas, pero también enfrenta momentos de tristeza y dolor. Aunque siempre busca la gloria, su destino a menudo es incierto. ¿Cual es este tipo de héroe?",
+        "Héroe medieval",
+        "Héroe romántico",
+        "Héroe trágico",
+        "Héroe épico",
+        3
+    ],
+    [
+        "Aquiles es uno de los personajes más emblemáticos de la mitología griega, conocido por su valentía y habilidades excepcionales en la batalla. Hijo de un rey mortal y una diosa, su linaje le otorga características únicas que lo hacen destacar entre los héroes de su tiempo. A pesar de su gran poder y hazañas, también tiene una debilidad que lo hace humano. ¿Cómo se le clasifica en términos de origen y poder?",
+        "Un dios",
+        "Un semidiós",
+        "Un héroe mortal",
+        "Un simple paje",
         1
     ],
     [
-        "En la guerra de Troya, un héroe sin igual, con fuerza y valentía, su nombre es inmortal. Tres hazañas realizó, su fama se extendió, y en la historia, su legado perduró.",
-        "3",
-        "1",
-        "5",
-        "2",
-        3
+        "En Troya, cuatro personajes clave,Con destinos entrelazados, luchan y viven.Uno es rey, otro es guerrero,El tercero es profeta, y el cuarto, amor. ¿Quiénes son estos cuatro personajes?",
+        "Rey Príamo, Aquiles, Casandra y Paris",
+        "Agamenón, Héctor, Odiseo y Briseida ",
+        "Menelao, Ajax, Calcante y Andrómaca",
+        "Aquiles, Héctor, Casandra y Helena",
+        0
+    ],
+    [
+        "¿Quién fue el guerrero griego que mató a Héctor?",
+        "Aquiles",
+        "Odiseo",
+        "Ajax",
+        "Menelao",
+        0
     ],
 ];
 
